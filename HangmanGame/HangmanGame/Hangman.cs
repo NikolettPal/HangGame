@@ -162,7 +162,7 @@ namespace HangmanGame
         {
             for (short i = 0; i < backedWord.Length; i++)
             {
-                guessedWord.Text += backedWord.Substring(i,1);
+                guessedWord.Text += backedWord.Substring(i, 1);
                 guessedWord.Text += " ";
             }
         }
@@ -238,7 +238,5 @@ namespace HangmanGame
         {
             Application.Restart();
         }
-
-        
     }
 }
